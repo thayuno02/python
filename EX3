@@ -1,0 +1,19 @@
+#EX 3
+quantidade= int (input ("Digite a quantidade de alunos: "))
+
+i=0
+
+while i<quantidade:
+	p1= float (input ("Digite a nota p1: "))
+	p2= float (input ("Digite a nota p2: "))
+	
+	print ("Aluno %d" %(i+1))
+	media= (p1+p2)/2
+	
+	print ("Média= ", media)
+    
+	
+	if media>=7:
+		print("\nAprovado direto")
+		
+	i=i+1
